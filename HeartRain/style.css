@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-height: 100vh;
+}
+
+.heart{
+    position: fixed;
+    font-size: 20px;
+    top:-30px;
+
+  animation: fall 2s linear;
+
+}
+
+
+
+@keyframes fall{
+    to{
+        transform:translateY(105vh);
+    }
+}
